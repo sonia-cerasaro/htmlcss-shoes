@@ -7,9 +7,27 @@ body {
 nav {
   width: 100vw;
   height: 60px;
-  background-color: blue;
   position: fixed;
 }
+
+ul {
+  text-align: right;
+  margin-right: 50px;
+}
+
+nav ul li {
+  width: 20px;
+  height: 20px;
+  background-color: violet;
+  border-radius: 50px;
+  text-align: center;
+  font-size: small;
+  padding: 7px;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+
 
 
 
