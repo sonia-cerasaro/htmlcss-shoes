@@ -8,6 +8,7 @@ nav {
   width: 100vw;
   height: 60px;
   position: fixed;
+  z-index: 1;
 }
 
 ul {
@@ -25,15 +26,26 @@ nav ul li {
   padding: 7px;
   margin-left: 10px;
   display: inline-block;
+
 }
 
 
+.column {
+  width: 70%;
+  height: 100%;
+  border: black solid 2px;
+  text-align: center;
+  position: absolute;
+}
 
-
+img {
+  width: 500px;
+}
 
 .row.one {
   height: 100vh;
   background-color: lightblue;
+  position: relative;
 }
 
 .row.two {
