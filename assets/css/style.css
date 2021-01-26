@@ -1,0 +1,29 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100vw;
+  height: 60px;
+  background-color: blue;
+  position: fixed;
+}
+
+
+
+.column.one {
+  height: 100vh;
+  background-color: lightblue;
+}
+
+.column.two {
+  height: 100vh;
+  background-color: lightgrey;
+}
+
+.column.three {
+  height: 100vh;
+  background-color: lightblue;
+}
